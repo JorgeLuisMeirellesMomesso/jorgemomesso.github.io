@@ -7,7 +7,6 @@
 }
 
 /* Variables */
-
 :root {
     --main-color: #54b689;
     --main-text-color: #fff;
@@ -154,14 +153,14 @@
     background-color: transparent;
 }
 
-.skills-sectio-title {
+#skills-sectio-title {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
     margin-bottom: 20px;
     font-size: 32px;
 }
 
-.skills-container {
+#skills-container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
@@ -184,9 +183,10 @@
 .skills-box i {
     font-size: 45px;
     margin-right: 10px;
-}
+} 
 
 /* Mobile */
+
 @media(max-width: 450px) {
 
     #container {
@@ -228,6 +228,10 @@
         max-width: 100%;
         margin-bottom: 4px;
         text-align: left;
+    }
+
+    .skills-box i {
+        font-size: 60px;
     }
 
 }
